@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * $1.
+ */
+class $1 ${2:extends|implements}
+{
+    /**
+     * The constructor for $1.
+     *
+     * ${3:@param }
+     */
+    public function __construct($4)
+    {
+        $5
+    }
+}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

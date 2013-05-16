@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<?php
+/**
+ * $1.
+ *
+ * @package $2
+ * @subpackage $3
+ * @copyright 2013 ${4:Hotels.nl}
+ */
+
+require_once 'Bootstrap.php';
+$5
+]]></content>
+  <tabTrigger>php</tabTrigger>
+</snippet>

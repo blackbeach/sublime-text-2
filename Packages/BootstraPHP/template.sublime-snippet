@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+$${1:template} = new Template();
+$${1:template}->view('$2', $${3:data});
+]]></content>
+  <tabTrigger>template</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

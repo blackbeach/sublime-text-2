@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+// Debug for development.
+if (HOST_TYPE === 'development') {
+  if (!headers_sent()) header('Content-Type: text/html; charset=utf-8');
+  echo '<pre>' . var_export($${1:data|template->data}, true) . '</pre>';
+  Database::profile();
+}
+]]></content>
+  <tabTrigger>debug</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

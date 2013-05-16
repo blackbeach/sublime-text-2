@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+// Get page topics and key them by topic_id.
+\$${2:pageTopics} = \$${1:language}->getPageTopics(array(), '${3:topic_id}');
+]]></content>
+  <tabTrigger>$pageTopics</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

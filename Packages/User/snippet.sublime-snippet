@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<snippet>
+  <content><![CDATA[
+$2
+${3:]]}></content>
+  <tabTrigger>$1</tabTrigger>
+  ${4:<scope>source.${5:php}</scope>}
+</snippet>
+  ]]></content>
+  <tabTrigger>snippet</tabTrigger>
+</snippet>

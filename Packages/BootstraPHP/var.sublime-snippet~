@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${4:Variable description}
+ *
+ * @var \$$2
+ */
+${1:private|public|protected} \$${2:varname}${3: = }$5;
+]]></content>
+  <tabTrigger>var</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

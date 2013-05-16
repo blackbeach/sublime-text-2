@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+Log::fatal(${2:message});$3
+]]></content>
+  <tabTrigger>Log</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

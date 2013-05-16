@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+// Define landing_page.
+define('LANDING_PAGE', '$1');$2
+]]></content>
+  <tabTrigger>landing</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

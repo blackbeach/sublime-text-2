@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+// Create a proper language list.
+\$${2:languageList} = \$${1:language}->getLanguageList();
+\$${3:translatedUrls} = \$${1:language}->getTranslatedUrls();
+
+foreach (\$${2:languageList} as \$${4:iso} => \$${5:lang}) {
+  \$${2:languageList}[\$${4:iso}] = array(
+    'name' => \$${5:lang}['language_name'],
+    'url' => \$${3:translatedUrls}[\$${4:iso}]
+  );
+}
+]]></content>
+  <tabTrigger>$languageList</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

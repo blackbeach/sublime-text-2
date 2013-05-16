@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+\$${2:select} = \$${1:db}->select()
+->from(
+  array('${3:t}' => '${4:table}'),
+  array(
+    '${5:field}' => '${6:t.column}'
+  )
+)$7;
+]]></content>
+  <tabTrigger>$select</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+
+for (\$${2:i}=0; \$$2<${1:max}; \$$2${3:++}) {
+  $4
+}
+
+$5
+]]></content>
+  <tabTrigger>for</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+// Get tags for the current language.
+$${1:tags} = $language->getTags(array('common'$2));
+$${1:tags}->tags[LANGUAGE];$2
+]]></content>
+  <tabTrigger>tags</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${3:undocumented constant}
+ * @var ${4:type} $1
+ */
+define(${1}, ${2});${5}
+]]></content>
+  <tabTrigger>def</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

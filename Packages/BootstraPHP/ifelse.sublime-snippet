@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+
+if ($1) {
+  $2
+} else {
+  $3
+}
+
+$4
+]]></content>
+  <tabTrigger>ife</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

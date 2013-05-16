@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+\$${1:db} = Database::getInstance();
+]]></content>
+  <tabTrigger>$db</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+->joinRight(
+  array('${1:t}' => '${2:table}'),
+  '${3:a.c = b.c}',
+  array($4)
+)$5
+]]></content>
+  <tabTrigger>joinRight</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

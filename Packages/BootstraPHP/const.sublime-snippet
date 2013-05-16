@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${3:Constant description}
+ *
+ * @const ${2:array|object|boolean|string|integer} $1
+ */
+const ${1:constant}${4: = }$5;
+]]></content>
+  <tabTrigger>const</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

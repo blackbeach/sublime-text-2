@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${2:Function description}.
+ *
+ * @param$3
+ * @return array \$${4:array}
+ */
+function ${1:name}(${5:params}) {
+  \$${6:db} = Database::getInstance();
+
+  \$${4:array} = array();
+
+  \$${7:select} = \$${6:db}->select()
+  ->from(
+    array('${8:t}' => '${9:table}'),
+    array(
+      '${10:field}' => '${11:t.column}'
+    )
+  )$14;
+
+  try {
+    // Fetch the data and cast integers and floats properly.
+    \$${12:data} = \$this->runQuery(\$${6:db}, \$${7:select}, array('numerificate' => true));
+
+    foreach (\$${12:data} as \$${13:item}) {
+      extract(\$${13:item});
+      // Do some magical things here.
+
+    }
+  } catch (Zend_Db_Exception \$e) {
+    Log::error(\$e->getMessage());
+  }
+
+  return \$${4:array};
+}
+]]></content>
+  <tabTrigger>dbfunc</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

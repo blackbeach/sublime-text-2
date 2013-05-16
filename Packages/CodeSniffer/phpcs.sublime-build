@@ -1,0 +1,3 @@
+{
+    "cmd": ["phpcs", "--standard=PSR2", "--tab-width=4", "--extensions=php,module,inc,install,test,profile,theme", "$file"]
+}

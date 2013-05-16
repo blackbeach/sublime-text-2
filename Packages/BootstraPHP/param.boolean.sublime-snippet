@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+@param boolean \$${1:var} ${2:description}.
+]]></content>
+  <tabTrigger>@param</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

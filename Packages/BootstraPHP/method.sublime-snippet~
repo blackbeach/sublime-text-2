@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${4:undocumented function}
+ *
+ * ${5}
+ */
+${1:private|public|protected|static} function ${2:}(${3})
+{
+$TM_TAB_SIZE${6}
+}
+]]></content>
+  <tabTrigger>fun</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

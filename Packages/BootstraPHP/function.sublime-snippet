@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * ${2:Function description}.
+ *
+ * ${3:@param }
+ * @return ${5:type} ${4:void}
+ */
+function $1(${6:params})
+{
+    ${7:// Can I haz moar codes, plox?}
+}
+
+]]></content>
+  <tabTrigger>function</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
